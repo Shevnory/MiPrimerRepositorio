@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/d084e83fa9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!--<div id="loader" class="loader">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="loader--img">
+          <title>Academlo Logo</title>
+          <g>
+              <g>
+                  <path
+                  d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                  </path>
+                  <path
+                  d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                  </path>
+              </g>
+          </g>
+      </svg>
+    </div>-->
+
+    <header class="nav-container" id="nav-container">
+        <nav class="nav-bar" id="nav-bar">
+            <a href="#" class="nav--logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48">
+                    <title>Academlo Logo</title>
+                    <g>
+                        <g>
+                        <path
+                            d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                        </path>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+            <div class="btns-nav">
+                <div id="buy">
+                    <i class="fa-solid fa-cart-shopping" id="cart-open"></i>
+                    <span id="cart-counter" class="counter">0</span>
+                </div>
+                <div id="theme-button">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <div id="menu">
+                    <i class="fa-solid fa-bars" id="icon-menu"></i>
+                </div>
+                <!--<button>
+                    <i class="fa-solid fa-sun"></i>
+                </button>-->
+            </div>
+        </nav>
+
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="" class="nav-url" id="url1">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-url" id="url2">Productos</a>
+            </li>
+        </ul>
+    </header>
+    
+    <div class="cart--container hide" id="cart-container">
+        <div class="nav--close">
+            <i class="fa-solid fa-trash" id="clear-cart"></i>
+            <i class="fa-solid fa-xmark" id="close-cart" ></i>
+        </div>
+        <div class="titulo-cart">
+            <h2>
+                My Cart
+            </h2>
+        </div>
+        <!--
+        <div class="cart hide" id="cart">
+            <div class="img-empty">
+                <img src="assets/images/empty-cart.png" alt="" class="empty">
+            </div>
+            <div class="empty-text">
+                <h2>
+                    Your cart is empty
+                </h2>
+                <p>
+                    You can add items to you cart by clicking on the "+" button on the product page.
+                </p>
+            </div>
+            <div id="cart-checkout" class="cart-checkout">
+                <div class="chekout-details">
+                    <div id="checkout-items" class="checkout-items">
+                        1 items
+                    </div>
+                    <div id="checkout-price" class="checkout-price">
+                        $400.0
+                    </div>
+                </div>
+                <div class="checkout-btn-container">
+                    <p class="btn-checkout"><i class="fa-solid fa-circle-check"></i> Checkout </p>
+                </div>
+            </div>
+         </div>
+        -->
+        <div class="productos-carrito">
+            <div id="product-list-cart" class="product-list-cart">
+                
+            </div>
+        </div>
+        <div id="cart-checkout" class="cart-checkout">
+                <div class="chekout-details">
+                    <div id="checkout-items" class="checkout-items">
+                        1 items
+                    </div>
+                    <div id="checkout-price" class="checkout-price">
+                        0
+                    </div>
+                </div>
+                <div class="checkout-btn-container">
+                    <p class="btn-checkout"><i class="fa-solid fa-circle-check"></i> Checkout </p>
+                </div>
+            </div>
+
+
+
+
+    </div>
+
+
+
+    
+
+
+
+
+    <section class="list-products-container">
+        <main id="list-products" class="list-products">
+            
+        </main>        
+    </section>
+
+    
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
